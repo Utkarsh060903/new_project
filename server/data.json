@@ -1,0 +1,16 @@
+{
+    "busNumber": "101",
+    "days": "Mon-Fri",
+    "timetable": [
+      {
+        "time": "08:00 AM",
+        "route": "Downtown to Uptown",
+        "numberOfPeopleSeated": 5
+      },
+      {
+        "time": "10:00 AM",
+        "route": "Uptown to Downtown",
+        "numberOfPeopleSeated": 2
+      }
+    ]
+  }

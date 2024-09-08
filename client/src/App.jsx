@@ -7,6 +7,8 @@ import Navbar from './pages/Navbar'
 import UserProvider from './UserContext'
 import Admin from './pages/Admin'
 import QrScanPage from './pages/QrScanPage'
+import Card from './pages/Card'
+import QRCodeScanner from './pages/QrScanPage'
 
 function App() {
 
@@ -21,7 +23,8 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path='/admin' element={<Admin />} />
-        <Route path='/scannedPage' element={<QrScanPage />} />
+        <Route path='/scannedPage' element={<QRCodeScanner />} />
+        <Route path='/cards' element={<Card />} />
       </Routes>
     </div>
     </UserProvider>
